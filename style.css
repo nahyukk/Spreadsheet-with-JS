@@ -1,0 +1,39 @@
+#export-btn {
+	background-color: seagreen;
+	color: white;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#ss-name {
+	width: 200px;
+	height: 28px;
+}
+
+
+.cell-row {
+	display: flex;
+
+}
+
+.cell {
+	width: 80px;
+	border: 1px solid rgb(202, 208, 202);
+	height: 40px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.cell.header {
+	text-align: center;
+	background: #d6d6d6;
+}
+
+.cell.header.active {
+	background: rgb(165, 206, 222);
+	color: white;
+}
